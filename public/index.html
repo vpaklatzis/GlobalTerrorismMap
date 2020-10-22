@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Global Terrorism Map</title>
+    <link rel="shortcut icon" href="globe.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6W7FBPTx6ZBDiLXqPtDgkfTBwytvJq3M&callback=initMap"></script>
+    <style>
+        body { 
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+        }
+
+        body::-webkit-scrollbar {
+            width: 0.5rem;
+            height: 0.5rem;
+        }
+
+        body::-webkit-scrollbar-track {
+            background: white;
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background: #023e58;
+
+        }
+
+        #map {
+            width: 100vw;
+            height: 98vh;
+        }
+
+        #tooltip {
+            position: absolute;
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            border-radius: 12px;
+            background-color: #0e1626;
+            color: white;
+            margin: 0; 
+            padding: 10px;
+        }
+
+        #info {
+            text-align: center;
+            font-size: 12px;
+            letter-spacing: 0.3px;
+            background-color: #111929;
+            color: white;
+            height: 2vh;
+        }
+
+        #link {
+            font-weight: bold;
+            text-decoration: unset;
+            color: rgb(197, 46, 0);
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <div id="tooltip"></div>
+
+    <div id="info">Database info provided by 
+        <a href="https://www.start.umd.edu/gtd/" id="link">GTD</a>
+    </div>
+</body>
+</html>
