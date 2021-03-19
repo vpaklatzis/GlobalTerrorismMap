@@ -3,6 +3,8 @@
 
 Update the Google Maps API key in the `index.html` file. 
 
+Replace the <EnterYourGoogleMapsAPIKeyHere> with your key.
+
 ```
 git clone <this-repo> 
 
