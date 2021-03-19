@@ -11,4 +11,4 @@ npm start
 ```
 
 
-Data contains over 140,000 U.S. gun-related incidents from 2013-2018 from http://www.gunviolencearchive.org/
+Data contains over 200,000 Global terrorism-related incidents for over 40 years, from https://www.start.umd.edu/gtd/
